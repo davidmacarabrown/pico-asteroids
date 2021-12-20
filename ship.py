@@ -19,8 +19,8 @@ class Ship():
         
     def move_right(self):
         if self.pos_x < 110:
-            self.pos_x += 2
+            self.pos_x += 1
             
     def move_left(self):
         if self.pos_x > 0:
-            self.pos_x -= 2
+            self.pos_x -= 1
