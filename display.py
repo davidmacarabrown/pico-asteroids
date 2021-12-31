@@ -16,4 +16,4 @@ class Display:
         self.oled.show()
     
     def text(self, string, x, y):
-        self.oled.text("Score: " + string, x, y)
+        self.oled.text(string, x, y)
